@@ -123,11 +123,14 @@ main section {
     height: 150px;
 }
  footer {
-    display: flex;
+
+    display: flex;
      flex-direction: row;
      justify-content: space-between;
-    background-color: rgb(13,31,41);
-}
+
+    background-color: rgb(13,31,41);
+
+}
 footer h1, .p1, textarea{
     text-decoration: none;  
     color: #fff;
