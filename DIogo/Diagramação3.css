@@ -1,0 +1,41 @@
+html {
+    margin: 0;
+    padding: 0px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: auto;
+    height: 700px;
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section, .divisoria nav {
+    width:900px;
+    margin: auto;
+}
+
+.botao {
+    text-decoration: none;  
+    color: white;
+    padding: 0.6em;
+    text-align: center;
+    border: white 1px solid;
+    border-radius: 30px;
+}
+.botaoc {
+    text-decoration: none;  
+    color: gray;
+    padding: 0.6em;
+    text-align: center;
+}
+.divisoria ul {
+    display: flex;
+    list-style: none;
+    gap: 3em;
+}
